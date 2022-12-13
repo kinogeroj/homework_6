@@ -8,8 +8,8 @@ os.system('cls')
 
 print('Найдем ряд из чисел, заданных по формуле (1 + 1 / n) ^ n.')
 
-a = int(input('Введите число n: '))
+n = int(input('Введите число n: '))
 
-b = [float((1 + (1 / i ))**i) for i in range(1, a + 1)]
+b = [float((1 + (1 / i ))**i) for i in range(1, n + 1)]
 
 print(f'Получаем следующий ряд: {b}.')
